@@ -12,3 +12,6 @@ function calcule(){
         document.form.visor.value=eval(resultado);
     }
 }
+function clicou(){
+    window.open("https://github.com/RsLeslie");
+}
