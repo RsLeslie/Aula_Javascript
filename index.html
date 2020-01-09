@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Calculadora</title>
+        <script type= "text/javascript" src="js/main.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body> 
+        
+        <div class="calculadora">        
+        <table>        
+            <tr>
+            <form name="form">
+                <input class="visor" name="visor">
+            </form>
+            </tr>
+            <tr>
+                <td><input class="botton" type="button" value="7" onclick="insert(value);"></td>
+                <td><input class="botton" type="button" value="8" onclick="insert(value);"></td>
+                <td><input class="botton" type="button" value="9" onclick="insert(value);"></td>
+                <td><input class="botton" type="button" value="/" onclick="insert(value);"></td>
+            </tr>
+            <tr>
+                <td><input class="botton" type="button" value="4" onclick="insert(value);"></td>
+                <td><input class="botton" type="button" value="5" onclick="insert(value);"></td>
+                <td><input class="botton" type="button" value="6" onclick="insert(value);"></td>
+                <td><input class="botton" type="button" value="*" onclick="insert(value);" ></td>
+            </tr>
+            <tr>
+                <td><input class="botton" type="button" value="1" onclick="insert(value);"></td>
+                <td><input class="botton" type="button" value="2" onclick="insert(value);"></td>
+                <td><input class="botton" type="button" value="3" onclick="insert(value);"></td>
+                <td><input class="botton" type="button" value="-" onclick="insert(value);"></td>
+            </tr>
+            <tr>
+                <td><input class="botton" type="button" value="C" onclick="reset();"></td>
+                <td><input class="botton" type="button" value="0" onclick="insert(value);"></td>
+                <td><input class="botton" type="button" value="=" onclick="calcule();"></td>
+                <td><input class="botton" type="button" value="+" onclick="insert(value);"></td>
+            </tr>
+        </table>
+    </div>  
+    </body>
+</html>
